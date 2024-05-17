@@ -40,12 +40,14 @@ const Footer = () => {
                     <ul className="text-gray-300">
                         <li className="font-semibold text-white py-2">Get The App</li>
                         <li className="py-2"><span>
-                                <FontAwesomeIcon icon="fa-brands fa-apple" />
+                            <img src="appStoreButton.png" />
                         </span></li>
-                        <li className="py-2">Google</li>
+                        <li className="py-2"><img src="googlePlay.png"/>
+                        </li>
                         <li className="py-2"></li>
                         <li className="py-2"></li>
                         <li className="py-2">Follow Us</li>
+                        <li className="py-2"> <img src="socialMediaIcon.png" /> </li>
                     </ul>
                 </div>
             </div>
@@ -55,7 +57,7 @@ const Footer = () => {
                     <li className="py-2">Teams</li>
                     <li className="py-2">Privacy</li>
                     <li className="py-2">Contact</li>
-                    <li className="py-2"><FontAwesomeIcon icon="fa-light fa-globe" color="#ffff"/>EN</li>
+                    <li className="py-2 flex"><img src="world.png" />EN</li>
                 </ul>
             </div>
         </div>
